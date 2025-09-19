@@ -10,6 +10,9 @@ module.exports = {
     storage: {
         connectionString: process.env.STORAGE_CONN_STRING,
         container: process.env.STORAGE_CONTAINER,
+    },
+    keyvault: {
+        url: process.env.KEYVAULT_URL // ej: "https://mi-keyvault.vault.azure.net/"
     }
 };
 
